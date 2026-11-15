@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML & CSS</title>
+    </head>
+    <body>
+        <header>
+            <h1>Apartment Search</h1>
+        </header>
+        <form action="">
+            <div>
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required />
+            </div>
+            <br />
+            <div>
+                <label for="monthlyPrice">Monthly Price:</label>
+                <input
+                    type="range"
+                    id="monthlyPrice"
+                    name="monthlyPrice"
+                    min="0"
+                    max="5000"
+                    step="100"
+                    value="1000"
+                />
+            </div>
+            <br />
+            <div>
+                <label for="bedrooms">Number of Bedrooms:</label>
+                <input
+                    type="number"
+                    id="bedrooms"
+                    name="bedrooms"
+                    min="0"
+                    max="10"
+                    value="1"
+                />
+            </div>
+            <br />
+            <div>
+                <label for="bathrooms">Number of Bathrooms:</label>
+                <input
+                    type="number"
+                    id="bathrooms"
+                    name="bathrooms"
+                    min="0"
+                    max="10"
+                    value="1"
+                />
+            </div>
+            <br />
+            <div>
+                <label for="pets">Pets Allowed:</label>
+                <input type="checkbox" id="pets" name="pets" />
+            </div>
+            <br />
+            <div>
+                <label for="date">Date Available:</label>
+                <input type="date" id="date" name="date" />
+            </div>
+            <br />
+            <br />
+            <input type="submit" value="Sumbit" />
+        </form>
+    </body>
+</html>
